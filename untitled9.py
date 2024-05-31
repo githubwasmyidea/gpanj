@@ -81,4 +81,4 @@ df = df[[0, 'Details']]
 df['source']='NJ Prevailing Wage Debarment List'
 df.reset_index(drop=True, inplace=True)
 df.rename(columns={0: "Name",}, inplace=True)
-#df.to_excel("powerbi_data2.xlsx")
+df.to_excel("powerbi_data2.xlsx")
