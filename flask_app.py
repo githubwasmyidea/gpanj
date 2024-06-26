@@ -9,10 +9,10 @@ app = Flask(__name__)
 import pytz
 
 def getDatatable():
-    df2=pd.read_excel("/home/gpanj1/mysite/data.xlsx")
-    with open('/home/gpanj1/mysite/error.txt', 'r') as file:
+    df2=pd.read_excel("data.xlsx")
+    with open('error.txt', 'r') as file:
         error=file.read()
-    with open('/home/gpanj1/mysite/last_updated.txt','r') as file2:
+    with open('last_updated.txt','r') as file2:
         last_updated=file2.read()
     return df2,error,last_updated
 
