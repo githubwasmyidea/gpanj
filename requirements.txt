@@ -1,0 +1,9 @@
+selenium==4.21.0
+pandas==2.1.4
+Flask==2.2.5
+gunicorn==20.0.4
+wfastcgi==3.0.0
+pytz
+PyPDF2
+requests
+bs4
