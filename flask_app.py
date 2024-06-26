@@ -260,5 +260,5 @@ def home():
 
     ''', table_html=table_html,last_updated=last_updated,sd=sd)
 
-#if __name__ == "__main__":
-#    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(debug=True)
